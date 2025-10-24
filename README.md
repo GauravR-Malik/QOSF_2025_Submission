@@ -1,2 +1,9 @@
 # QOSF_2025_Submission
-A repository for code files solving the screening tasks for QOSF 2025 Mentorship Program
+A repository for code files solving the screening tasks for QOSF 2025 Mentorship Program.
+This repository contains solutions for problem 4, that is the design of a Quantum Support Vector Machine that can accurately classify data from the Iris Dataset. The said solution can be found in the ipynb file QOSF_2025_QVSM. This repository also contains a copy of the Iris Dataset on which the code works, and an image file used in the notebook. 
+In order to run the program there is no requirement of having access a specialised quantum computing like Qiskit, Cirq or Qutip. The code has been specifically written by implementing quantum circuits using elementary tensor operations from scratch which require nothing more than numpy and scipy.linalg libraries. We have also used sci-kit learn for running tests and classically benchmarking our results. 
+This method of tensor applications is common place in my research area of quantum condensed matter physics, and forms the basic framework utilised in tensor network based techniques such as DMRG and TEBD. With my familiarity with these methods I took it as a challenge to implement complex quantum circuits used for machine learning applications in the same framework :) The results I have obtained seem to be promising, and the best results outperform the classical SVM technique for the Iris dataset. 
+
+The repository also contains solutions for problems 1 and 2. However, they are just done as an exercise, and are not meant to be graded. I shall make sure to add the solution to problem 3 in due course as well. For the purpose of evaluation, I wish to put forward my solution to problem 4. 
+
+A bit about myself: I am Gaurav, working as a PhD student on the overlap of quantum information and condensed matter theory. My work is on the simulation of ergodic dynamics using quantum circuits. I am currently working at the Department of Physics at IIT(BHU), Varanasi.
